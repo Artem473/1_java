@@ -22,7 +22,6 @@ public class Program {
         sArray(arr5);
     }
 
-
     public static void sArray(int[] arr){
         for (int i = 0; i < arr.length; i++) {
             System.out.printf("%d ",arr[i]);
@@ -35,5 +34,6 @@ public class Program {
             arr[i] += Math.random() * 10;
         }
         return arr;
+
     }
 }
